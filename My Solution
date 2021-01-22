@@ -1,0 +1,15 @@
+
+<<< grep -r "CLUE" *
+
+<<< grep -r "Annabel" *
+
+<<< head -n 173 streets/Mattapan_Street | tail -n 1
+
+<<< tail -n 1 interviews/interview-9437737
+
+<< head -n 173 streets/Mattapan_Street |tail -n 1 mystery/interviews/interview-9437737
+
+<<< grep -A 5 "L337" mystery/vehicles | grep -C 5 "6'"
+
+
+<<< echo "JEREMY BOWERS" | $(command -v md5 || command -v md5sum) | grep -qif /dev/stdin encoded && echo CORRECT\! GREAT WORK, GUMSHOE. || echo SORRY, TRY AGAIN.
